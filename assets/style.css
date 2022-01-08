@@ -71,16 +71,15 @@ input, textarea {
 .form textarea {
   height: 100px;
   resize: vertical;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
-.form a {
-  display: block;
+.form #cto {
   margin: 0;
+  padding: 10px;
   background-color: red;
   text-align: center;
-  height: 28px;
+  height: 48px;
   border-radius: 2px;
-  padding: 10px;
   color: #fff;
   font-size: 20px;
   text-decoration: none !important;

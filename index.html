@@ -8,12 +8,19 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible">
 <meta content="True" name="HandheldFriendly">
 
-<link href="images/favicon.ico" rel="icon" type="image/ico" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="assets/favicon/site.webmanifest">
+<link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="assets/favicon/favicon.ico" rel="icon" type="image/ico" />
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap" rel="stylesheet">
-
+<script src="assets/app.js"></script>
 <link href="assets/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -25,19 +32,21 @@
     </div>
 
     <div class="form">
-      <div class="inner">
+      <form class="inner" onSubmit="save();return false;">
         <label for="input-1">Votre adresse E-mail</label>
-        <input id="input-1" type="text" value="" />
+        <input id="input-1" type="email" value="" required />
         <label for="input-2">Votre message</label>
-        <textarea id="input-2"></textarea>
-        <a href="#" onClick="save()">Envoyer le message</a>
-      </div>
+        <textarea id="input-2" required></textarea>
+        <input type="checkbox" name="better_tan_spotted_wolf_spider" value="1" tabindex="-1" autocomplete="no" style="position: absolute;left: -5000px;">
+        
+        <input type="submit" id="cto" value="Envoyer le message" />
+      </form>
     </div>
   </div>
 
   <div class="page">
     <div class="inner">
-      <img src="https://www.sylvain-renard.com/wp-content/uploads/2016/12/MARTIN-Fabienne-13.jpg" />
+      <img src="assets/images/sandrine.jpg" alt="Sandrine Barillot, éducatrice sépcialisé" />
       <p><b>Je m'appelle Sandrine Barillot et je suis éducatrice spécialisé depuis 20 ans.</b><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam quam nulla porttitor massa id. Netus et malesuada fames ac turpis egestas. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Est lorem ipsum dolor sit amet consectetur adipiscing elit. At imperdiet dui accumsan sit amet nulla. Vitae justo eget magna fermentum iaculis eu. Consequat id porta nibh venenatis cras sed felis eget velit. Morbi tristique senectus et netus. Varius quam quisque id diam vel quam elementum pulvinar etiam. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero nunc. Purus ut faucibus pulvinar elementum integer enim. Suscipit tellus mauris a diam. Elit ut aliquam purus sit amet luctus. Sit amet nulla facilisi morbi tempus iaculis urna id. Iaculis at erat pellentesque adipiscing commodo elit. Adipiscing tristique risus nec feugiat in fermentum.
       Lectus quam id leo in vitae turpis. Sapien pellentesque habitant morbi tristique senectus et. Amet commodo nulla facilisi nullam vehicula. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. </p>
     </div>
