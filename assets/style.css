@@ -44,6 +44,7 @@ a.social {
 }
 .baseline p {
   font-size: 1.5vw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 } 
 .baseline h1 {  
   color: #fff;
