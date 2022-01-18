@@ -99,6 +99,7 @@ input, textarea {
   color: #fff;
   font-size: 20px;
   text-decoration: none !important;
+  cursor: pointer;
 }
 .page {
   width: 100%;
